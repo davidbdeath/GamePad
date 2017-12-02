@@ -1,23 +1,25 @@
-
 body {
 	margin: auto;
-	
+	max-width: 2880px;
 }
 header {
+	background-image:url(../assets/common-assets/woodtexture-4k.jpg);
+	background-repeat: no-repeat;
+	background-size: contain; height: 2160px;
 	font-family: liquor-store, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	background-image:url(../assets/afbg.png);
+	font-size: 120pt;
 	color: white;
-}
-h1 {
-	position: relative: top: 1110px; left: 350px;
-}
-#logo {
-	position: relative; top: -34px; left: 140px;
+	}
+	
+	
+header #rainbow {
+	background-image: url(../assets/common-assets/header-banner.png);
+	background-repeat: no-repeat;
+	background-size: contain; height: 360px;
+	height: 360px;
 }
 
-h1{
-	font-size: 4em;
-	width: 800px;
+#logo {
 }
