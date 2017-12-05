@@ -1,25 +1,136 @@
 body {
 	margin: auto;
-	max-width: 2880px;
+	width: 1920px;
+	background-color: rgb(18, 13, 10);
 }
+
+#banner {
+	width: 1920px;
+	z-index: 1;
+}
+
 header {
-	background-image:url(../assets/common-assets/woodtexture-4k.jpg);
-	background-repeat: no-repeat;
-	background-size: contain; height: 2160px;
+	height: 1080px;;
+}
+
+#woodbkgnd {
+	position: relative;
+	top: -232px;
+	left: 0px;
+	z-index: -1;
+	width: 100%;
+	min-height: 600px;
+}
+
+#phrase {
 	font-family: liquor-store, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 120pt;
 	color: white;
-	}
-	
-	
-header #rainbow {
-	background-image: url(../assets/common-assets/header-banner.png);
-	background-repeat: no-repeat;
-	background-size: contain; height: 360px;
-	height: 360px;
+	font-size: 5em;
+	position: relative;
+	top: -750px;
+	padding-left: 400px;
+	display: flex;
+	flex-direction: column;
 }
 
-#logo {
+#splash {
+	height: 500px;
+	width: 274px;
+	position: relative;
+	top: -300px;
+	left: 800px;
 }
+
+
+
+/*features----------------------------------------------*/
+
+section {
+	background-color: white;
+}
+
+section img {
+	width: 270px;
+	height: 547px;
+	padding-top: 90px;
+}
+
+.fmover {	
+	position: relative; top: -480px; left: 400px;
+	width: 1200px;;
+}
+
+.fwhite p, .fwood p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3em;
+	line-height: 1.5em;
+	
+}
+
+.fwhite h2, .fwood h2 {
+	font-family: liquor-store, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4em;
+	padding-bottom: 20px;
+}
+
+.fwhite, .fwood {
+	padding-left: 200px;
+}
+
+.fwhite {
+	height: 733px;
+	background-color: white;
+	
+}
+
+.fwood {
+	height: 733px;
+	color: white;
+	background-image: url(../assets/wood.jpg);
+}
+
+
+
+/*The Below-----------------------------------------------*/
+
+footer {
+	font-family: liquor-store, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4em;
+	background-color: white;
+	height: 320px;
+}
+
+#rbseperator {
+	position: relative; top: -20px;
+}
+
+footer p {
+	margin-top: 60px;
+	margin-left: 300px;	
+}
+
+
+#download {
+	height: 89px;
+	width: 274px;
+	float: right;
+	margin-right: 300px;
+	position: relative; top: -70px;
+}
+
+
+
+
+
+
+
+
+
+
+
