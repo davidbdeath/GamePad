@@ -1,70 +1,65 @@
 body {
 	margin: auto;
-	width: 1920px;
+	width: 1366px;
 	background-color: rgb(18, 13, 10);
 }
 
 #banner {
-	width: 1920px;
+	width: 1366px;
 	z-index: 1;
 }
 
 header {
-	height: 1080px;;
+	height: 768px;
 }
-
 #woodbkgnd {
 	position: relative;
-	top: -232px;
+	top: -160px;
 	left: 0px;
 	z-index: -1;
 	width: 100%;
 	min-height: 600px;
 }
-
 #phrase {
 	font-family: liquor-store, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	color: white;
-	font-size: 5em;
+	font-size: 4em;
 	position: relative;
-	top: -750px;
-	padding-left: 400px;
+	top: -570px;
+	padding-left: 250px;
 	display: flex;
 	flex-direction: column;
 }
 
 #splash {
-	height: 500px;
-	width: 274px;
+	height: 423px;
+	width: 210px;
 	position: relative;
-	top: -300px;
-	left: 800px;
+	top: -255px;
+	left: 650px;
 }
 
-
-
 /*features----------------------------------------------*/
-
+	
 section {
 	background-color: white;
 }
 
 section img {
-	width: 270px;
-	height: 547px;
-	padding-top: 90px;
+	height: 389px;
+	padding-top: 55px;
 }
 
 .fmover {	
-	position: relative; top: -480px; left: 400px;
-	width: 1200px;;
+	position: relative; top: -340px; left: 300px;
+	width: 800px;;
 }
 
 .fwhite p, .fwood p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 3em;
+	font-size: 2em;
 	line-height: 1.5em;
 	
 }
@@ -73,16 +68,16 @@ section img {
 	font-family: liquor-store, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 4em;
+	font-size: 3em;
 	padding-bottom: 20px;
 }
 
 .fwhite, .fwood {
-	padding-left: 200px;
+	padding-left: 130px;
 }
 
 .fwhite {
-	height: 733px;
+	height: 500px;
 	background-color: white;
 	
 }
@@ -101,36 +96,159 @@ footer {
 	font-family: liquor-store, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 4em;
+	font-size: 2em;
 	background-color: white;
-	height: 320px;
+	height: 230px;
 }
 
 #rbseperator {
-	position: relative; top: -20px;
+	position: relative; top: -22px;
+	width: 1366px;
+	height: 30px;
 }
 
 footer p {
 	margin-top: 60px;
-	margin-left: 300px;	
+	margin-left: 250px;	
 }
-
 
 #download {
-	height: 89px;
-	width: 274px;
+	height: 63px;
+	width: 196px;
 	float: right;
 	margin-right: 300px;
-	position: relative; top: -70px;
+	position: relative; top: -45px;
 }
 
 
 
 
 
+/*1920px wide version---------------------------------------*/
+@media screen and (min-width: 1900px) {
 
-
-
-
-
-
+	body {
+		margin: auto;
+		width: 1920px;
+		background-color: rgb(18, 13, 10);
+	}
+	
+	#banner {
+		width: 1920px;
+		z-index: 1;
+	}
+	
+	header {
+		height: 1080px;;
+	}
+	
+	#woodbkgnd {
+		position: relative;
+		top: -232px;
+		left: 0px;
+		z-index: -1;
+		width: 100%;
+		min-height: 600px;
+	}
+	
+	#phrase {
+		font-family: liquor-store, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		color: white;
+		font-size: 5em;
+		position: relative;
+		top: -750px;
+		padding-left: 400px;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	#splash {
+		height: 500px;
+		width: 274px;
+		position: relative;
+		top: -300px;
+		left: 800px;
+	}
+	
+	
+	
+/*features----------------------------------------------*/
+	
+	section {
+		background-color: white;
+	}
+	
+	section img {
+		width: 270px;
+		height: 547px;
+		padding-top: 90px;
+	}
+	
+	.fmover {	
+		position: relative; top: -480px; left: 400px;
+		width: 1200px;;
+	}
+	
+	.fwhite p, .fwood p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 3em;
+		line-height: 1.5em;
+		
+	}
+	
+	.fwhite h2, .fwood h2 {
+		font-family: liquor-store, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 4em;
+		padding-bottom: 20px;
+	}
+	
+	.fwhite, .fwood {
+		padding-left: 200px;
+	}
+	
+	.fwhite {
+		height: 733px;
+		background-color: white;
+		
+	}
+	
+	.fwood {
+		height: 733px;
+		color: white;
+		background-image: url(../assets/wood.jpg);
+	}
+	
+	/*The Below-----------------------------------------------*/
+	
+	footer {
+		font-family: liquor-store, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 4em;
+		background-color: white;
+		height: 320px;
+	}
+	
+	#rbseperator {
+		position: relative; top: -22px;
+		width: 1920px;
+	}
+	
+	footer p {
+		margin-top: 60px;
+		margin-left: 300px;	
+	}
+	
+	
+	#download {
+		height: 89px;
+		width: 274px;
+		float: right;
+		margin-right: 300px;
+		position: relative; top: -70px;
+	}
+}
