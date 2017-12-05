@@ -83,7 +83,7 @@ section img {
 }
 
 .fwood {
-	height: 733px;
+	height: 500px;
 	color: white;
 	background-image: url(../assets/wood.jpg);
 }
@@ -99,6 +99,7 @@ footer {
 	font-size: 2em;
 	background-color: white;
 	height: 230px;
+	margin-top: 22px;
 }
 
 #rbseperator {
